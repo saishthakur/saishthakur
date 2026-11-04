@@ -45,6 +45,11 @@ Compares encoder–decoder models with prompted LLaMA 3.2 1B and Gemma 3 1B on E
 
 **Focus:** Generative AI · transformers · machine translation · model evaluation
 
+### [Autoregressive Text Generation](https://github.com/saishthakur/Foundation-of-GenAI)
+Implements and compares RNN, BiRNN, LSTM, and GRU models for next-word text generation, including an exploration of sampling temperature.
+
+**Focus:** Generative AI · recurrent neural networks · text generation
+
 ### [Fake News Detection with Deep Learning](https://github.com/saishthakur/Deep-Learning-Project)
 A comparative study of MLP, CNN, LSTM, and DistilBERT for fake-news classification on the ISOT dataset. The project notes that dataset classification does not verify the truth of an article’s claims.
 
