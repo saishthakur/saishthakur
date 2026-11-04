@@ -29,17 +29,20 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Prepare generated asset directory
-        run: chmod -R u+w dist
-
       - name: Generate GitHub profile cards
         run: node .github/scripts/generate-profile-cards.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Stage profile SVGs
+        run: |
+          mkdir -p publish
+          cp dist/*.svg publish/
+          cp profile-cards/*.svg publish/
 
       - name: Publish profile SVGs to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
-          publish_dir: ./dist
+          publish_dir: ./publish
