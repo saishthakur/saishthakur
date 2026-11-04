@@ -10,6 +10,16 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/saish-hitesh-thakur-a9aa9521a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="Connect on LinkedIn" /></a>
   <a href="mailto:saishthakur26@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-2563EB?style=for-the-badge&logo=gmail" alt="Email Saish" /></a>
+  <a href="https://github.com/saishthakur?tab=repositories"><img src="https://img.shields.io/badge/Explore-Projects-123B70?style=for-the-badge&logo=github" alt="Explore projects" /></a>
+</p>
+
+<p align="center">
+  <a href="#about">About</a> ·
+  <a href="#experience">Experience</a> ·
+  <a href="#selected-projects">Projects</a> ·
+  <a href="#skills--areas">Skills</a> ·
+  <a href="#github-activity">GitHub activity</a> ·
+  <a href="#connect">Connect</a>
 </p>
 
 ---
@@ -29,6 +39,8 @@ I’m **Saish Thakur**, an Information Technology undergraduate at **Manipal Ins
 Contributed to work on LLM-assisted synthetic banking conversation data, including scenario and customer-journey design and high-level data quality checks.
 
 ## Selected Projects
+
+A selection of academic and independent projects across generative AI, retrieval, and machine learning.
 
 ### [CloudRAG](https://github.com/saishthakur/cloud-native-rag)
 A cloud-native RAG system exploring multi-tenant document retrieval, retrieval routing, and secure knowledge access.
@@ -57,32 +69,39 @@ A comparative study of MLP, CNN, LSTM, and DistilBERT for fake-news classificati
 
 ## Skills & Areas
 
-Python · machine learning · deep learning · NLP · LLM applications · RAG · synthetic data generation · model evaluation
+**Programming:** Python  
+**Machine learning:** machine learning · deep learning · NLP · text classification · model evaluation  
+**Generative AI:** LLM applications · RAG · synthetic data generation · transformer models  
+**Interests:** backend systems · distributed systems · responsible evaluation
 
-## GitHub
+## GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=saishthakur&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub contribution statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saishthakur&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages on GitHub" />
+  <a href="https://github.com/saishthakur">
+    <img width="49%" src="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-overview.svg" alt="GitHub public repository and star overview" />
+  </a>
+  <a href="https://github.com/saishthakur?tab=repositories">
+    <img width="49%" src="https://raw.githubusercontent.com/saishthakur/saishthakur/output/top-languages.svg" alt="Language breakdown across public original repositories" />
+  </a>
 </p>
 
 <p align="center">
-  <img width="65%" src="https://streak-stats.demolab.com?user=saishthakur&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
+  <a href="https://github.com/saishthakur">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake.svg" />
+      <img width="100%" alt="Animated snake following my GitHub contribution graph" src="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake.svg" />
+    </picture>
+  </a>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake.svg" />
-    <img alt="Animated snake following my GitHub contribution graph" src="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
+<sub>Analytics cards and the contribution animation are refreshed automatically by GitHub Actions.</sub>
 
 ## Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/saish-hitesh-thakur-a9aa9521a/">LinkedIn</a> ·
-  <a href="mailto:saishthakur26@gmail.com">Email</a>
+  <a href="https://www.linkedin.com/in/saish-hitesh-thakur-a9aa9521a/"><img src="https://img.shields.io/badge/LinkedIn-Saish%20Thakur-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn profile" /></a>
+  <a href="mailto:saishthakur26@gmail.com"><img src="https://img.shields.io/badge/Email-saishthakur26-2563EB?style=for-the-badge&logo=gmail" alt="Email Saish" /></a>
 </p>
 
 <p align="center"><sub>Building, learning, and sharing along the way.</sub></p>
