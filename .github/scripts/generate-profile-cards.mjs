@@ -85,7 +85,7 @@ const topLanguages = [...languages.entries()].sort((a, b) => b[1] - a[1]).slice(
 const languageRows = topLanguages.map(([name, bytes], index) => {
   const percent = totalBytes ? (bytes / totalBytes) * 100 : 0;
   const y = 65 + index * 18;
-  const width = Math.max(percent ? 3 : 0, Math.round(350 * percent / 100));
+  const width = Math.max(percent ? 3 : 0, Math.round(235 * percent / 100));
   const color = colors[name] ?? "#4DA3FF";
   return `
   <text x="24" y="${y}" fill="#DCE9FA" font-family="Segoe UI,Arial,sans-serif" font-size="11">${escapeXml(name)}</text>
