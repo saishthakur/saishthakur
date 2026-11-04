@@ -1,4 +1,4 @@
-name: Update contribution snake
+name: Update profile visuals
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - .github/workflows/contribution-snake.yml
+      - .github/scripts/generate-profile-cards.mjs
   schedule:
     - cron: "17 0 * * *"
   workflow_dispatch:
@@ -17,6 +18,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
       - name: Generate contribution snake SVGs
         uses: Platane/snk@v3
         with:
@@ -25,7 +29,12 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Publish SVGs to output branch
+      - name: Generate GitHub profile cards
+        run: node .github/scripts/generate-profile-cards.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish profile SVGs to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
