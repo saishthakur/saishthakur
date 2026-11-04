@@ -104,8 +104,8 @@ const languageSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="440" height=
   <text x="24" y="166" fill="#7896BD" font-family="Segoe UI,Arial,sans-serif" font-size="10">Updated daily from GitHub repository language data</text>
 </svg>`;
 
-await mkdir("dist", { recursive: true });
+await mkdir("profile-cards", { recursive: true });
 await Promise.all([
-  writeFile("dist/github-overview.svg", statsSvg, "utf8"),
-  writeFile("dist/top-languages.svg", languageSvg, "utf8"),
+  writeFile("profile-cards/github-overview.svg", statsSvg, "utf8"),
+  writeFile("profile-cards/top-languages.svg", languageSvg, "utf8"),
 ]);
