@@ -1,186 +1,87 @@
-<!-- ═══════════════ HEADER ═══════════════ -->
-
+<!-- Premium navy and electric-blue profile header -->
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:071A33,50:123B70,100:2563EB&height=230&section=header&text=Saish%20Thakur&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%2FML%20%7C%20Generative%20AI&descAlignY=58&descSize=17&animation=fadeIn"
-    width="100%"
-    alt="Saish Thakur"
-  />
-</p>
-
-<!-- ═══════════════ TYPING ANIMATION ═══════════════ -->
-
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=4DA3FF&center=true&vCenter=true&width=650&height=55&lines=Welcome+to+my+GitHub+Profile!;Ex-Data+Science+Intern+%40+NPCI;Exploring+AI%2C+ML+%26+Generative+AI;Building+Intelligent+Systems+with+LLMs;Always+Learning.+Always+Building."
-    alt="Typing SVG"
-  />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A33,50:123B70,100:2563EB&height=230&section=header&text=Saish%20Thakur&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=Software%20Engineering%20%7C%20AI%20%7C%20Generative%20AI&descAlignY=58&descSize=17&animation=fadeIn" width="100%" alt="Saish Thakur — Software Engineering, AI and Generative AI" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/saishthakur">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://www.linkedin.com/in/saish-hitesh-thakur-a9aa9521a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="mailto:saishthakur26@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=1000&color=4DA3FF&center=true&vCenter=true&width=720&height=55&lines=Building+useful+AI-powered+software;Exploring+LLMs%2C+RAG+and+language+technologies;Turning+ideas+into+working+systems;Learning+by+building" alt="Typing animation: building useful AI software, exploring LLMs and RAG, and learning by building" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/saish-hitesh-thakur-a9aa9521a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:saishthakur26@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-2563EB?style=for-the-badge&logo=gmail" alt="Email Saish" /></a>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-Hi! I'm **Saish Thakur**, an Information Technology undergraduate at **Manipal Institute of Technology**, passionate about building intelligent software solutions.
+I’m **Saish Thakur**, an Information Technology undergraduate at **Manipal Institute of Technology**. I enjoy building practical software and exploring how machine learning and generative AI can solve real problems.
 
-- 🎓 B.Tech in Information Technology | MIT Manipal
-- 💼 Former Data Science Intern at **National Payments Corporation of India (NPCI)**
-- 🤖 Interested in Artificial Intelligence, Machine Learning and Generative AI.
-- 🧠 Exploring LLMs, RAG architectures, NLP and Deep Learning.
-- ☁️ Interested in Cloud Computing, Backend Engineering and DevOps.
-- 🚀 Enjoy building practical projects and experimenting with emerging technologies.
+- 🎓 B.Tech in Information Technology, MIT Manipal
+- 💼 Former Data Science Intern at the National Payments Corporation of India (NPCI)
+- 🔎 Interested in machine learning, NLP, LLMs, retrieval-augmented generation, and backend systems
 
-I believe in continuous learning, hands-on experimentation and turning ideas into working solutions.
+## Experience
 
----
+**Data Science Intern · National Payments Corporation of India (NPCI)**
 
-## 🛠️ Tech Stack
+Contributed to work on LLM-assisted synthetic banking conversation data, including scenario and customer-journey design and high-level data quality checks.
 
-### Programming Languages
+## Selected Projects
 
-<p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js" />
-</p>
+### [CloudRAG](https://github.com/saishthakur/cloud-native-rag)
+A cloud-native RAG system exploring multi-tenant document retrieval, retrieval routing, and secure knowledge access.
 
-### AI / ML & Data Science
+**Focus:** Python · RAG · LLMs · distributed systems
 
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" />
-</p>
+### [Synthetic Banking Dataset Generator](https://github.com/saishthakur/sdg-banking-dataset-generator)
+An agentic framework for turning banking-domain documents into synthetic customer-support conversations, with validation and review steps.
 
-### Web Development & Backend
+**Focus:** Python · LLMs · synthetic data · evaluation
 
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,react,nodejs,express,flask" />
-</p>
+### [English–Hindi Translation with Generative Models](https://github.com/saishthakur/generative-ai-machine-translation)
+Compares encoder–decoder models with prompted LLaMA 3.2 1B and Gemma 3 1B on English-to-Hindi translation, with documented evaluation and limitations.
 
-### Databases, Cloud & DevOps
+**Focus:** Generative AI · transformers · machine translation · model evaluation
 
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite,redis,docker,aws,linux,git,github" />
-</p>
+### [Fake News Detection with Deep Learning](https://github.com/saishthakur/Deep-Learning-Project)
+A comparative study of MLP, CNN, LSTM, and DistilBERT for fake-news classification on the ISOT dataset. The project notes that dataset classification does not verify the truth of an article’s claims.
 
----
+**Focus:** Deep learning · NLP · text classification
 
-## 💼 Professional Experience
+## Skills & Areas
 
-### Data Science Intern | NPCI
-**National Payments Corporation of India**
+Python · machine learning · deep learning · NLP · LLM applications · RAG · synthetic data generation · model evaluation
 
-- Worked on a synthetic banking conversation dataset generation framework using Large Language Models.
-- Explored scenario discovery, journey building and synthetic conversation generation.
-- Worked on persona allocation, record verification and dataset quality evaluation.
-- Focused on generating diverse and high-quality evaluation data for banking-domain conversational AI.
-
----
-
-## 🚀 Featured Projects
-
-### 1. Deep Learning – Fake News Detection
-
-Comparative analysis of different deep learning architectures for fake news classification using the ISOT dataset.
-
-**Models:** MLP, CNN, LSTM and DistilBERT.
-
-**Technologies:** Python, Deep Learning, NLP, PyTorch.
-
-🔗 [View Repository](https://github.com/saishthakur/Deep-Learning-Project)
-
-### 2. CloudRAG
-
-A cloud-based Retrieval-Augmented Generation project exploring document retrieval and LLM-powered question answering.
-
-**Technologies:** Python, RAG, LLMs, Cloud Computing.
-
-### 3. Dark Web Threat Intelligence Monitor (DWTIM)
-
-A threat intelligence monitoring system with API services, data processing and an interactive dashboard.
-
-**Technologies:** Python, FastAPI, Streamlit, SQLite, Pandas.
-
-### 4. Calorie Vision
-
-An image-based calorie estimation application built to explore computer vision and web application development.
-
-**Technologies:** Python, Flask, HTML, CSS, JavaScript.
-
-### 5. Banking Synthetic Data Generation
-
-An LLM-powered framework for generating synthetic banking-domain conversations and evaluation datasets.
-
-**Technologies:** Python, LLMs, NLP, Synthetic Data Generation.
-
----
-
-## 📊 GitHub Analytics
+## GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=saishthakur&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saishthakur&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=saishthakur&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub contribution statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saishthakur&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages on GitHub" />
 </p>
 
 <p align="center">
-  <img width="65%" src="https://streak-stats.demolab.com?user=saishthakur&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 🌱 Currently Exploring
-
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- LoRA & QLoRA Fine-Tuning
-- Agentic AI Systems
-- Cloud Infrastructure & DevOps
-- Backend Engineering & System Design
-
----
-
-## 🤝 Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/saish-hitesh-thakur-a9aa9521a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Saish%20Thakur-0A66C2?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="mailto:saishthakur26@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-saishthakur26-EA4335?style=for-the-badge&logo=gmail" />
-  </a>
+  <img width="65%" src="https://streak-stats.demolab.com?user=saishthakur&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
 </p>
 
 <p align="center">
-  💬 Open to meaningful collaborations, learning opportunities and interesting projects.
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated snake following my GitHub contribution graph" src="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
+## Connect
+
 <p align="center">
-  <b>Building. Learning. Experimenting. Growing. 🚀</b>
+  <a href="https://www.linkedin.com/in/saish-hitesh-thakur-a9aa9521a/">LinkedIn</a> ·
+  <a href="mailto:saishthakur26@gmail.com">Email</a>
 </p>
 
-<!-- ═══════════════ CONTRIBUTION SNAKE ═══════════════ -->
+<p align="center"><sub>Building, learning, and sharing along the way.</sub></p>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/saishthakur/saishthakur/output/github-contribution-grid-snake-dark.svg"
-    alt="GitHub Contribution Snake"
-  />
-</p>
-
-<!-- ═══════════════ FOOTER ═══════════════ -->
-
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:071A33,50:123B70,100:2563EB&height=110&section=footer"
-    width="100%"
-  />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A33,50:123B70,100:2563EB&height=100&section=footer" width="100%" alt="" />
 </p>
