@@ -69,10 +69,22 @@ A comparative study of MLP, CNN, LSTM, and DistilBERT for fake-news classificati
 
 ## Skills & Areas
 
-**Programming:** Python  
-**Machine learning:** machine learning · deep learning · NLP · text classification · model evaluation  
-**Generative AI:** LLM applications · RAG · synthetic data generation · transformer models  
-**Interests:** backend systems · distributed systems · responsible evaluation
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,html,latex&perline=3&theme=dark" alt="Python, HTML, and LaTeX" />
+</p>
+<p align="center"><strong>Languages &amp; markup</strong></p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,sklearn&perline=2&theme=dark" alt="PyTorch and scikit-learn" />
+</p>
+<p align="center"><strong>Machine learning · deep learning · NLP · model evaluation</strong></p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,redis,docker,kubernetes&perline=4&theme=dark" alt="FastAPI, Redis, Docker, and Kubernetes" />
+</p>
+<p align="center"><strong>Backend &amp; infrastructure</strong></p>
+
+<p align="center">LLM applications · Hugging Face Transformers · RAG · synthetic data generation · distributed systems</p>
 
 ## GitHub Activity
 
